@@ -1,0 +1,15 @@
+.navbar {
+  width: 100%;
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+
+  &__link {
+    padding: 20px;
+    width: 20%;
+  }
+}
