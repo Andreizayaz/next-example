@@ -4,7 +4,10 @@ import { useState } from "react";
 
 import { MainContainer } from "../components";
 
-import { userType } from "./usersTypes";
+ type userType = {
+   id: number;
+   name: string;
+ };
 
 type UsersPropsTypes = {
   users: userType[];
