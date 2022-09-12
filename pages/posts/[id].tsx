@@ -13,7 +13,7 @@ const User: NextPage<PostPropsTypes> = ({ post }) => {
 
   return (
     <MainContainer title={post.title}>
-      <h1>User Id: {query.id}</h1>
+      <h1>Post Id: {query.id}</h1>
       <p>Post Title: {post.title}</p>
     </MainContainer>
   );
