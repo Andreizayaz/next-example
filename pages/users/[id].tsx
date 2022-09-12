@@ -21,7 +21,7 @@ const User: NextPage<UserPropsTypes> = ({ user }) => {
 
 export default User;
 
-export async function getServerSideProps({ params }: { params: object }) {
+export async function getServerSideProps({ params }: { params: any }) {
   const response = await fetch(
     `https://jsonplaceholder.typicode.com/users/${params.id}`
   );
